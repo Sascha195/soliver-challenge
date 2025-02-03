@@ -1,0 +1,370 @@
+{
+  "products": [
+    {
+      "id": 2165257,
+      "name": "Jeans Mauro - Regular Fit - Mid Rise - Tapered Leg",
+      "retailPrice": 69.99,
+      "discount": 25,
+      "type": "Jeans",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Blue",
+          "hexColor": "#0000FF",
+          "images": [
+            "https://media.soliver.com/i/soliver/2165257.57Z4_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["32/32", "34/32", "36/32", "38/32"]
+        },
+        {
+          "key": 2,
+          "color": "Light Blue",
+          "hexColor": "#ADD8E6",
+          "images": [
+            "https://media.soliver.com/i/soliver/2165257.53Z4_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["30/30", "32/30", "34/30", "36/30"]
+        }
+      ]
+    },
+    {
+      "id": 2160131,
+      "name": "Strukturierte Strickjacke mit Logo-Patch",
+      "retailPrice": 59.99,
+      "discount": 25,
+      "type": "Sweater",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Navy",
+          "hexColor": "#000080",
+          "images": [
+            "https://media.soliver.com/i/soliver/2160131.5978_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+          "key": 2,
+          "color": "Petrol",
+          "hexColor": "#008080",
+          "images": [
+            "https://media.soliver.com/i/soliver/2160131.6767_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["M", "L", "XL"]
+        },
+        {
+          "key": 3,
+          "color": "Beige",
+          "hexColor": "#F5F5DC",
+          "images": [
+            "https://media.soliver.com/i/soliver/2160131.8155_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M"]
+        },
+        {
+          "key": 4,
+          "color": "Slate Gray",
+          "hexColor": "#708090",
+          "images": [
+            "https://media.soliver.com/i/soliver/2160131.9500_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["L", "XL", "XXL"]
+        }
+      ]
+    },
+    {
+      "id": 2159276,
+      "name": "Gesteppter Parka mit abnehmbarer Kapuze",
+      "retailPrice": 149.99,
+      "discount": 34,
+      "type": "Coat",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Navy",
+          "hexColor": "#000080",
+          "images": [
+            "https://media.soliver.com/i/soliver/2159276.5978_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "L"]
+        },
+        {
+          "key": 2,
+          "color": "Olive Green",
+          "hexColor": "#556B2F",
+          "images": [
+            "https://media.soliver.com/i/soliver/2159276.7940_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["M", "L", "XL"]
+        }
+      ]
+    },
+    {
+      "id": 2163395,
+      "name": "Regular Fit: Strukturierte Chino aus Baumwollstretch",
+      "retailPrice": 59.99,
+      "type": "Pants",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Deep Blue",
+          "hexColor": "#00008B",
+          "images": [
+            "https://media.soliver.com/i/soliver/2163395.5856_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["29/30", "30/30", "31/32", "32/32"]
+        },
+        {
+          "key": 2,
+          "color": "Fir Green",
+          "hexColor": "#228B22",
+          "images": [
+            "https://media.soliver.com/i/soliver/2163395.7883_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["30/30", "32/30", "34/30"]
+        },
+        {
+          "key": 3,
+          "color": "Sandstone",
+          "hexColor": "#786D5F",
+          "images": [
+            "https://media.soliver.com/i/soliver/2163395.8410_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["31/32", "32/32", "33/32", "34/32", "36/34"]
+        }
+      ]
+    },
+    {
+      "id": 2165218,
+      "name": "Jeans Nelio - Slim Fit - Mid Rise - Slim Leg",
+      "retailPrice": 59.99,
+      "discount": 20,
+      "type": "Jeans",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Blue",
+          "hexColor": "#0000FF",
+          "images": [
+            "https://media.soliver.com/i/soliver/2165218.59Z7_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["32/32", "33/32", "34/32", "36/32"]
+        }
+      ]
+    },
+    {
+      "id": 2161800,
+      "name": "Basic T-Shirt",
+      "retailPrice": 12.99,
+      "type": "T-Shirt",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Light Blue",
+          "hexColor": "#ADD8E6",
+          "images": [
+            "https://media.soliver.com/i/soliver/2161800.5445_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
+        },
+        {
+          "key": 2,
+          "color": "Caramel",
+          "hexColor": "#A87532",
+          "images": [
+            "https://media.soliver.com/i/soliver/2161800.8596_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
+        },
+        {
+          "key": 3,
+          "color": "Graphite",
+          "hexColor": "#474A51",
+          "images": [
+            "https://media.soliver.com/i/soliver/2161800.9730_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
+        }
+      ]
+    },
+    {
+      "id": 2156005,
+      "name": "Regular Fit: Kariertes Hemd mit Button-Down-Kragen",
+      "retailPrice": 39.99,
+      "discount": 25,
+      "type": "Shirt",
+      "variants": [
+        {
+          "key": 1,
+          "color": "White",
+          "hexColor": "#FFFFFF",
+          "images": [
+            "https://media.soliver.com/i/soliver/2156005.01N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "L", "XXL"]
+        },
+        {
+          "key": 2,
+          "color": "Light Blue",
+          "hexColor": "#ADD8E6",
+          "images": [
+            "https://media.soliver.com/i/soliver/2156005.50N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S"]
+        },
+        {
+          "key": 3,
+          "color": "Petrol",
+          "hexColor": "#008080",
+          "images": [
+            "https://media.soliver.com/i/soliver/2156005.67N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M"]
+        },
+        {
+          "key": 4,
+          "color": "Black",
+          "hexColor": "#000000",
+          "images": [
+            "https://media.soliver.com/i/soliver/2156005.99N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "L", "XXL"]
+        }
+      ]
+    },
+    {
+      "id": 2165349,
+      "name": "Weihnachtspullover aus Baumwolle",
+      "retailPrice": 59.99,
+      "type": "Sweater",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Chili Red",
+          "hexColor": "#B22222",
+          "images": [
+            "https://media.soliver.com/i/soliver/2165349.31X1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "L", "XL", "XXL"]
+        },
+        {
+          "key": 2,
+          "color": "Navy",
+          "hexColor": "#000080",
+          "images": [
+            "https://media.soliver.com/i/soliver/2165349.59X1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "L", "XL", "XXL"]
+        }
+      ]
+    },
+    {
+      "id": 2159295,
+      "name": "Gerippte Strickmütze aus Baumwolle",
+      "retailPrice": 19.99,
+      "discount": 35,
+      "type": "Beanie",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Navy",
+          "hexColor": "#000080",
+          "images": [
+            "https://media.soliver.com/i/soliver/2159295.5920_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["One Size"]
+        },
+        {
+          "key": 2,
+          "color": "Olive Green",
+          "hexColor": "#808000",
+          "images": [
+            "https://media.soliver.com/i/soliver/2159295.7971_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["One Size"]
+        }
+      ]
+    },
+    {
+      "id": 2156481,
+      "name": "T-Shirt mit Used-Effekt",
+      "retailPrice": 19.99,
+      "discount": 30,
+      "type": "T-Shirt",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Petrol",
+          "hexColor": "#008080",
+          "images": [
+            "https://media.soliver.com/i/soliver/2156481.67D1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "L", "XL", "XXL"]
+        },
+        {
+          "key": 2,
+          "color": "Light Brown",
+          "hexColor": "#D2B48C",
+          "images": [
+            "https://media.soliver.com/i/soliver/2156481.83D1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "L", "XL", "XXL"]
+        }
+      ]
+    },
+    {
+      "id": 2155931,
+      "name": "Karierte Hemdjacke aus Wollmix",
+      "retailPrice": 129.99,
+      "discount": 34,
+      "type": "Shacket",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Navy",
+          "hexColor": "#000080",
+          "images": [
+            "https://media.soliver.com/i/soliver/2155931.59N8_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "XXL"]
+        },
+        {
+          "key": 2,
+          "color": "Brown",
+          "hexColor": "#964B00",
+          "images": [
+            "https://media.soliver.com/i/soliver/2155931.85N8_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "L", "XL", "XXL"]
+        }
+      ]
+    },
+    {
+      "id": 2156027,
+      "name": "Regular Fit: Kariertes Hemd aus Baumwollstretch mit Brusttasche",
+      "retailPrice": 39.99,
+      "discount": 35,
+      "type": "Shirt",
+      "variants": [
+        {
+          "key": 1,
+          "color": "Lavender",
+          "hexColor": "#E6E6FA",
+          "images": [
+            "https://media.soliver.com/i/soliver/2156027.47N2_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "L", "XL", "XXL"]
+        },
+        {
+          "key": 2,
+          "color": "Ocean Blue",
+          "hexColor": "#4F42B5",
+          "images": [
+            "https://media.soliver.com/i/soliver/2156027.47N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+          ],
+          "sizes": ["S", "M", "L", "XL", "XXL"]
+        }
+      ]
+    }
+  ]
+}
