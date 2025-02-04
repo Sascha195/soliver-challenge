@@ -20,8 +20,8 @@ Before proceeding, ensure that you have:
 ### **1️⃣ Clone the Repository**
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/Sascha195/soliver-challenge.git
+cd soliver-challenge
 ```
 
 ---
