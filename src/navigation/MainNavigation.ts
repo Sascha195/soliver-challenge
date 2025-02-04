@@ -10,6 +10,5 @@ export const MainStackNavigator = createNativeStackNavigator({
         headerShown: false,
       },
     },
-    // Weather: WeatherScreen,
   },
 });

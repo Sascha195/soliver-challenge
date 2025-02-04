@@ -1,4 +1,4 @@
-import {Pressable, Text, View} from 'react-native';
+import {Pressable, Text} from 'react-native';
 import {Size} from '../../../types/product';
 import {useMemo} from 'react';
 import {styles} from './FilterModal.styles';
@@ -20,10 +20,13 @@ export const SizeFilterOption = (props: SizeFilterOptionProps) => {
     <Pressable
       style={[
         styles.sizeContainer,
+        // eslint-disable-next-line react-native/no-inline-styles
         {backgroundColor: isSelected ? 'black' : 'white'},
       ]}
       onPress={() => toggleSizeFilter(sizeFilter)}>
-      <Text style={[styles.sizeTitle, {color: isSelected ? 'white' : 'black'}]}>
+      <Text
+        // eslint-disable-next-line react-native/no-inline-styles
+        style={[styles.sizeTitle, {color: isSelected ? 'white' : 'black'}]}>
         {sizeFilter}
       </Text>
     </Pressable>

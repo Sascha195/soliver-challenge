@@ -29,8 +29,8 @@ export const FavoritesProvider = ({children}: {children: ReactNode}) => {
     loadFavorites();
   }, []);
 
-  const saveFavorites = async (favorites: Favorite[]) => {
-    await AsyncStorage.setItem('favorites', JSON.stringify(favorites));
+  const saveFavorites = async (newFavorites: Favorite[]) => {
+    await AsyncStorage.setItem('favorites', JSON.stringify(newFavorites));
   };
 
   const toggleFavorite = (productId: number, variantId: number) => {

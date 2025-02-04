@@ -1,46 +1,44 @@
-import React, {useState, useCallback} from 'react';
+import React, {useState} from 'react';
 import {View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {ProductList} from '../../components/ProductList/ProductList';
 import {styles} from './HomeScreen.styles';
 import {SearchBar} from '../../components/SearchBar/SearchBar';
-import {
-  ProductSelection,
-  Sort,
-} from '../../components/ProductSelection/ProductSelection';
 import {FilterModal} from '../../components/Modal/Filter/FilterModal';
-import {SortModal} from '../../components/Modal/Sort/SortModal';
+import {SortingModal} from '../../components/Modal/Sorting/SortingModal';
+import {
+  ProductSettings,
+  Sorting,
+} from '../../components/ProductSettings/ProductSettings';
 
 export const HomeScreen = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [sortModalVisible, setSortModalVisible] = useState(false);
   const [filterModalVisible, setFilterModalVisible] = useState(false);
-  const [selectedSort, setSelectedSort] = useState<Sort>('Neuheiten');
+  const [selectedSorting, setSelectedSorting] = useState<Sorting>('NEW');
 
   const insets = useSafeAreaInsets();
-
-  const showSortModal = useCallback(() => setSortModalVisible(true), []);
-  const showFilterModal = useCallback(() => setFilterModalVisible(true), []);
-  const hideSortModal = useCallback(() => setSortModalVisible(false), []);
-  const hideFilterModal = useCallback(() => setFilterModalVisible(false), []);
 
   return (
     <View style={[styles.container, {paddingTop: insets.top}]}>
       <SearchBar updateSearchQuery={setSearchQuery} />
-      <ProductSelection
-        showFilter={showFilterModal}
-        showSort={showSortModal}
-        selectedSort={selectedSort}
+      <ProductSettings
+        showFilter={() => setFilterModalVisible(true)}
+        showSorting={() => setSortModalVisible(true)}
+        selectedSorting={selectedSorting}
       />
-      <ProductList searchQuery={searchQuery} selectedSort={selectedSort} />
+      <ProductList searchQuery={searchQuery} selectedSort={selectedSorting} />
 
       {/* Modals */}
-      <FilterModal isVisible={filterModalVisible} onClose={hideFilterModal} />
-      <SortModal
+      <FilterModal
+        isVisible={filterModalVisible}
+        onClose={() => setFilterModalVisible(false)}
+      />
+      <SortingModal
         isVisible={sortModalVisible}
-        onClose={hideSortModal}
-        updateSort={setSelectedSort}
-        selectedSort={selectedSort}
+        onClose={() => setSortModalVisible(false)}
+        updateSorting={setSelectedSorting}
+        selectedSorting={selectedSorting}
       />
     </View>
   );

@@ -9,7 +9,9 @@ export interface Filters {
 
 interface FiltersContextType {
   filters: Filters;
-  updateFilters: (newFilters: Filters) => void;
+  updateSelectedColors: (colors: Color[]) => void;
+  updateSelectedSizes: (sizes: Size[]) => void;
+  updateSelectedPriceRange: (range: [number, number]) => void;
   resetFilters: () => void;
 }
 
@@ -27,8 +29,16 @@ export const FiltersProvider: React.FC<{children: React.ReactNode}> = ({
     selectedPriceRange: [MIN_PRICE_FILTER_RANGE, MAX_PRICE_FILTER_RANGE],
   });
 
-  const updateFilters = (newFilters: Filters) => {
-    setFilters(newFilters);
+  const updateSelectedColors = (colors: Color[]) => {
+    setFilters(prev => ({...prev, selectedColors: colors}));
+  };
+
+  const updateSelectedSizes = (sizes: Size[]) => {
+    setFilters(prev => ({...prev, selectedSizes: sizes}));
+  };
+
+  const updateSelectedPriceRange = (range: [number, number]) => {
+    setFilters(prev => ({...prev, selectedPriceRange: range}));
   };
 
   const resetFilters = () => {
@@ -40,7 +50,14 @@ export const FiltersProvider: React.FC<{children: React.ReactNode}> = ({
   };
 
   return (
-    <FiltersContext.Provider value={{filters, updateFilters, resetFilters}}>
+    <FiltersContext.Provider
+      value={{
+        filters,
+        updateSelectedColors,
+        updateSelectedSizes,
+        updateSelectedPriceRange,
+        resetFilters,
+      }}>
       {children}
     </FiltersContext.Provider>
   );

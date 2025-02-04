@@ -1,4 +1,4 @@
-import React, {useState, memo, useMemo} from 'react';
+import React, {useState, useMemo} from 'react';
 import {View, Text} from 'react-native';
 import {Product} from '../../types/product';
 import {styles} from './ProductListItem.styles';
@@ -6,6 +6,7 @@ import {getProductItemGap} from '../../utils/getProductItemGap';
 import {calculateRetailPrice} from '../../utils/calculateRetailPrice';
 import {ColorSelection} from './ColorSelection/ColorSelection';
 import {ProductImage} from './ProductImage/ProductImage';
+import {formatPriceWithCurrency} from '../../utils/formatPriceWithCurrency';
 
 interface ProductListItemProps {
   product: Product;
@@ -37,13 +38,13 @@ export const ProductListItem = ({product, index}: ProductListItemProps) => {
             style={[
               styles.retailPrice,
               product.discount ? styles.retailPriceDiscounted : {},
-            ]}>{`${calculatedRetailPrice
-            .toString()
-            .replace('.', ',')} €`}</Text>
+            ]}>
+            {formatPriceWithCurrency(calculatedRetailPrice)}
+          </Text>
           {!!product.discount && (
-            <Text style={styles.discountPrice}>{`${product.retailPrice
-              .toString()
-              .replace('.', ',')} €`}</Text>
+            <Text style={styles.discountPrice}>
+              {formatPriceWithCurrency(product.retailPrice)}
+            </Text>
           )}
         </View>
         <View style={styles.colorSelectionContainer}>

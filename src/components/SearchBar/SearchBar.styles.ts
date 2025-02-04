@@ -7,9 +7,12 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#e9e9e9',
     padding: 10,
+    marginTop: 20,
   },
   input: {
     flex: 1,
     marginLeft: 10,
+    paddingTop: 0,
+    paddingBottom: 0,
   },
 });

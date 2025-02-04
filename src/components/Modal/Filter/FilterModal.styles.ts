@@ -78,4 +78,15 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  sliderMarker: {
+    width: 26,
+    height: 26,
+    borderRadius: 13,
+    backgroundColor: 'white',
+    borderColor: 'lightgrey',
+    borderWidth: 1,
+  },
+  sliderSelectedTrack: {
+    backgroundColor: 'black',
+  },
 });

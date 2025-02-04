@@ -12,7 +12,7 @@
           "color": "Blue",
           "hexColor": "#0000FF",
           "images": [
-            "https://media.soliver.com/i/soliver/2165257.57Z4_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2165257.57Z4_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["32/32", "34/32", "36/32", "38/32"]
         },
@@ -21,7 +21,7 @@
           "color": "Light Blue",
           "hexColor": "#ADD8E6",
           "images": [
-            "https://media.soliver.com/i/soliver/2165257.53Z4_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2165257.53Z4_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["30/30", "32/30", "34/30", "36/30"]
         }
@@ -39,7 +39,7 @@
           "color": "Navy",
           "hexColor": "#000080",
           "images": [
-            "https://media.soliver.com/i/soliver/2160131.5978_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2160131.5978_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "L", "XL"]
         },
@@ -48,7 +48,7 @@
           "color": "Petrol",
           "hexColor": "#008080",
           "images": [
-            "https://media.soliver.com/i/soliver/2160131.6767_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2160131.6767_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["M", "L", "XL"]
         },
@@ -57,7 +57,7 @@
           "color": "Beige",
           "hexColor": "#F5F5DC",
           "images": [
-            "https://media.soliver.com/i/soliver/2160131.8155_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2160131.8155_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M"]
         },
@@ -66,7 +66,7 @@
           "color": "Slate Gray",
           "hexColor": "#708090",
           "images": [
-            "https://media.soliver.com/i/soliver/2160131.9500_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2160131.9500_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["L", "XL", "XXL"]
         }
@@ -84,7 +84,7 @@
           "color": "Navy",
           "hexColor": "#000080",
           "images": [
-            "https://media.soliver.com/i/soliver/2159276.5978_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2159276.5978_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "L"]
         },
@@ -93,7 +93,7 @@
           "color": "Olive Green",
           "hexColor": "#556B2F",
           "images": [
-            "https://media.soliver.com/i/soliver/2159276.7940_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2159276.7940_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["M", "L", "XL"]
         }
@@ -110,7 +110,7 @@
           "color": "Deep Blue",
           "hexColor": "#00008B",
           "images": [
-            "https://media.soliver.com/i/soliver/2163395.5856_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2163395.5856_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["29/30", "30/30", "31/32", "32/32"]
         },
@@ -119,7 +119,7 @@
           "color": "Fir Green",
           "hexColor": "#228B22",
           "images": [
-            "https://media.soliver.com/i/soliver/2163395.7883_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2163395.7883_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["30/30", "32/30", "34/30"]
         },
@@ -128,7 +128,7 @@
           "color": "Sandstone",
           "hexColor": "#786D5F",
           "images": [
-            "https://media.soliver.com/i/soliver/2163395.8410_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2163395.8410_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["31/32", "32/32", "33/32", "34/32", "36/34"]
         }
@@ -146,7 +146,7 @@
           "color": "Blue",
           "hexColor": "#0000FF",
           "images": [
-            "https://media.soliver.com/i/soliver/2165218.59Z7_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2165218.59Z7_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["32/32", "33/32", "34/32", "36/32"]
         }
@@ -163,7 +163,7 @@
           "color": "Light Blue",
           "hexColor": "#ADD8E6",
           "images": [
-            "https://media.soliver.com/i/soliver/2161800.5445_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2161800.5445_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
         },
@@ -172,7 +172,7 @@
           "color": "Caramel",
           "hexColor": "#A87532",
           "images": [
-            "https://media.soliver.com/i/soliver/2161800.8596_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2161800.8596_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
         },
@@ -181,7 +181,7 @@
           "color": "Graphite",
           "hexColor": "#474A51",
           "images": [
-            "https://media.soliver.com/i/soliver/2161800.9730_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2161800.9730_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
         }
@@ -199,7 +199,7 @@
           "color": "White",
           "hexColor": "#FFFFFF",
           "images": [
-            "https://media.soliver.com/i/soliver/2156005.01N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2156005.01N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "L", "XXL"]
         },
@@ -208,7 +208,7 @@
           "color": "Light Blue",
           "hexColor": "#ADD8E6",
           "images": [
-            "https://media.soliver.com/i/soliver/2156005.50N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2156005.50N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S"]
         },
@@ -217,7 +217,7 @@
           "color": "Petrol",
           "hexColor": "#008080",
           "images": [
-            "https://media.soliver.com/i/soliver/2156005.67N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2156005.67N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M"]
         },
@@ -226,7 +226,7 @@
           "color": "Black",
           "hexColor": "#000000",
           "images": [
-            "https://media.soliver.com/i/soliver/2156005.99N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2156005.99N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "L", "XXL"]
         }
@@ -243,7 +243,7 @@
           "color": "Chili Red",
           "hexColor": "#B22222",
           "images": [
-            "https://media.soliver.com/i/soliver/2165349.31X1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2165349.31X1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "L", "XL", "XXL"]
         },
@@ -252,7 +252,7 @@
           "color": "Navy",
           "hexColor": "#000080",
           "images": [
-            "https://media.soliver.com/i/soliver/2165349.59X1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2165349.59X1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "L", "XL", "XXL"]
         }
@@ -270,7 +270,7 @@
           "color": "Navy",
           "hexColor": "#000080",
           "images": [
-            "https://media.soliver.com/i/soliver/2159295.5920_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2159295.5920_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["One Size"]
         },
@@ -279,7 +279,7 @@
           "color": "Olive Green",
           "hexColor": "#808000",
           "images": [
-            "https://media.soliver.com/i/soliver/2159295.7971_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2159295.7971_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["One Size"]
         }
@@ -297,7 +297,7 @@
           "color": "Petrol",
           "hexColor": "#008080",
           "images": [
-            "https://media.soliver.com/i/soliver/2156481.67D1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2156481.67D1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "L", "XL", "XXL"]
         },
@@ -306,7 +306,7 @@
           "color": "Light Brown",
           "hexColor": "#D2B48C",
           "images": [
-            "https://media.soliver.com/i/soliver/2156481.83D1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2156481.83D1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "L", "XL", "XXL"]
         }
@@ -324,7 +324,7 @@
           "color": "Navy",
           "hexColor": "#000080",
           "images": [
-            "https://media.soliver.com/i/soliver/2155931.59N8_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2155931.59N8_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "XXL"]
         },
@@ -333,7 +333,7 @@
           "color": "Brown",
           "hexColor": "#964B00",
           "images": [
-            "https://media.soliver.com/i/soliver/2155931.85N8_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2155931.85N8_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "L", "XL", "XXL"]
         }
@@ -351,7 +351,7 @@
           "color": "Lavender",
           "hexColor": "#E6E6FA",
           "images": [
-            "https://media.soliver.com/i/soliver/2156027.47N2_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2156027.47N2_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "L", "XL", "XXL"]
         },
@@ -360,7 +360,7 @@
           "color": "Ocean Blue",
           "hexColor": "#4F42B5",
           "images": [
-            "https://media.soliver.com/i/soliver/2156027.47N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=1192"
+            "https://media.soliver.com/i/soliver/2156027.47N1_front?bg=rgb(239,239,239)&qlt=default&fmt=auto&w=800"
           ],
           "sizes": ["S", "M", "L", "XL", "XXL"]
         }

@@ -1,4 +1,4 @@
-import {Sort} from '../components/ProductSelection/ProductSelection';
+import {Sorting} from '../components/ProductSettings/ProductSettings';
 import {
   Filters,
   MAX_PRICE_FILTER_RANGE,
@@ -11,8 +11,12 @@ const filterProductsBySearchQuery = (
   products: Product[],
   searchQuery: string,
 ): Product[] => {
-  if (!products) return [];
-  if (searchQuery.length === 0) return products;
+  if (!products) {
+    return [];
+  }
+  if (searchQuery.length === 0) {
+    return products;
+  }
 
   return products.filter(product =>
     product.name.toLowerCase().includes(searchQuery.toLowerCase()),
@@ -23,7 +27,9 @@ export const filterProductsByFilters = (
   products: Product[],
   filters: Filters,
 ): Product[] => {
-  if (!products) return [];
+  if (!products) {
+    return [];
+  }
 
   let filteredProducts = [...products];
 
@@ -74,10 +80,12 @@ export const filterProductsByFilters = (
   return filteredProducts;
 };
 
-const sortProducts = (products: Product[], sortType: Sort): Product[] => {
-  if (!products) return [];
+const sortProducts = (products: Product[], sortingType: Sorting): Product[] => {
+  if (!products) {
+    return [];
+  }
 
-  if (sortType === 'Preis aufsteigend') {
+  if (sortingType === 'PRICE_ASC') {
     return [...products].sort(
       (a, b) =>
         calculateRetailPrice(a.retailPrice, a.discount) -
@@ -85,7 +93,7 @@ const sortProducts = (products: Product[], sortType: Sort): Product[] => {
     );
   }
 
-  if (sortType === 'Preis absteigend') {
+  if (sortingType === 'PRICE_DESC') {
     return [...products].sort(
       (a, b) =>
         calculateRetailPrice(b.retailPrice, b.discount) -
@@ -99,12 +107,14 @@ const sortProducts = (products: Product[], sortType: Sort): Product[] => {
 export const filterAndSortProducts = (
   products: Product[] | undefined,
   searchQuery: string,
-  sortType: Sort,
+  sortingType: Sorting,
   filters: Filters,
 ): Product[] => {
-  if (!products) return [];
+  if (!products) {
+    return [];
+  }
 
   let filteredProducts = filterProductsBySearchQuery(products, searchQuery);
   filteredProducts = filterProductsByFilters(filteredProducts, filters);
-  return sortProducts(filteredProducts, sortType);
+  return sortProducts(filteredProducts, sortingType);
 };

@@ -3,10 +3,9 @@ import {Product} from '../../types/product';
 
 const API_URL =
   Platform.OS === 'android'
-    ? 'http://10.0.2.2:3001' // Für Android Emulator
-    : 'http://localhost:3001'; // Für iOS & Web
+    ? 'http://10.0.2.2:3001' // Android Emulator
+    : 'http://localhost:3001'; // iOS & Web
 
-// productService.ts
 export async function fetchProducts(): Promise<Product[]> {
   const response = await fetch(`${API_URL}/products`);
   if (!response.ok) {

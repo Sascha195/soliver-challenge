@@ -1,30 +1,30 @@
 import React, {useCallback} from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
 import Modal from 'react-native-modal';
-import {styles} from './SortModal.styles';
+import {styles} from './SortingModal.styles';
 import Icon from 'react-native-vector-icons/AntDesign';
-import {Sort, sortOptions} from '../../ProductSelection/ProductSelection';
-import {SortOption} from './SortOption';
+import {Sorting, sortingOptions} from '../../ProductSettings/ProductSettings';
+import {SortingOption} from './SortingOption';
 
-interface SortModalProps {
+interface SortingModalProps {
   isVisible: boolean;
   onClose: () => void;
-  updateSort: (sort: Sort) => void;
-  selectedSort: Sort;
+  updateSorting: (sorting: Sorting) => void;
+  selectedSorting: Sorting;
 }
 
-export const SortModal = ({
+export const SortingModal = ({
   isVisible,
   onClose,
-  updateSort,
-  selectedSort,
-}: SortModalProps) => {
+  updateSorting,
+  selectedSorting,
+}: SortingModalProps) => {
   const selectSort = useCallback(
-    (sort: Sort) => {
-      updateSort(sort);
+    (sorting: Sorting) => {
+      updateSorting(sorting);
       onClose();
     },
-    [updateSort, onClose],
+    [updateSorting, onClose],
   );
 
   return (
@@ -43,12 +43,12 @@ export const SortModal = ({
             <Icon name="close" size={15} color="white" />
           </TouchableOpacity>
         </View>
-        {sortOptions.map((option, index) => (
-          <SortOption
-            key={`${option}-${index}`}
-            option={option}
-            updateSort={selectSort}
-            selectedSort={selectedSort}
+        {sortingOptions.map((sortingOption, index) => (
+          <SortingOption
+            key={`${sortingOption}-${index}`}
+            sortingOption={sortingOption}
+            updateSorting={selectSort}
+            selectedSorting={selectedSorting}
           />
         ))}
       </View>

@@ -22,6 +22,7 @@ export const ColorFilterOption = (porps: ColorFilterOptionProps) => {
       <Pressable
         style={[
           styles.colorOption,
+          // eslint-disable-next-line react-native/no-inline-styles
           {
             borderColor: isSelected ? 'black' : 'lightgray',
           },

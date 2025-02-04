@@ -16,13 +16,15 @@ export const FavoriteIcon = ({
 }: FavoriteIconProps) => {
   const favoritesContext = useContext(FavoritesContext);
 
-  if (!favoritesContext) return null;
-
-  const {isFavorite, toggleFavorite} = favoritesContext;
-
   const handleToggleFavorite = useCallback(() => {
-    toggleFavorite(productID, selectedProductVariant.key);
-  }, [toggleFavorite, productID, selectedProductVariant.key]);
+    if (favoritesContext) {
+      favoritesContext.toggleFavorite(productID, selectedProductVariant.key);
+    }
+  }, [favoritesContext, productID, selectedProductVariant.key]);
+
+  if (!favoritesContext) {
+    return null;
+  }
 
   return (
     <TouchableOpacity
@@ -30,7 +32,9 @@ export const FavoriteIcon = ({
       onPress={handleToggleFavorite}>
       <Icon
         name={
-          isFavorite(productID, selectedProductVariant.key) ? 'heart' : 'hearto'
+          favoritesContext.isFavorite(productID, selectedProductVariant.key)
+            ? 'heart'
+            : 'hearto'
         }
         size={15}
         color="red"

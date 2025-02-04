@@ -1,6 +1,6 @@
 import {Pressable, View} from 'react-native';
 import {styles} from './ColorSelection.styles';
-import {ProductVariant} from '../../types/product';
+import {ProductVariant} from '../../../types/product';
 
 interface ColorSelectionProps {
   productVariant: ProductVariant;
